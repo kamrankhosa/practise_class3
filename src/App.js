@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
      <div>
-        <Languages lang1="C/C++" lang2="Java" lang3="C#" lang4="JavaScript"/>
+        <Languages lang1="C/C++" lang2="Java" lang3="C#" lang4="JavaScript" lang5="Php" />
      </div>
     </div>
   );
