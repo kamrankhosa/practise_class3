@@ -9,6 +9,7 @@ function P_languages(props){
             <h3>{props.lang4}</h3>
             <h3>{props.lang5}</h3>
             <h3>{props.lang6}</h3>
+            <h3>{props.lang7}</h3>
 
         </div>
     )
