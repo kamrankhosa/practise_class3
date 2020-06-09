@@ -36,4 +36,4 @@ jobs:
     - name: Installing surge
       run: yarn install --g surge
     - name: Deploying/Publishing project
-      run: Surge ./build practise_class3.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build practise_class3.surge.sh --token ${{ secrets.SURGE_TOKEN }}
