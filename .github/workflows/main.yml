@@ -37,4 +37,4 @@ jobs:
       run: npm install --g surge
     # Runs a set of commands using the runners shell
     - name: Deploying my project on surge
-      run: surge ./build practise1_bootcamp1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build practise_class3.surge.sh --token ${{ secrets.SURGE_TOKEN }}
