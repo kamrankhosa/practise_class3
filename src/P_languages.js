@@ -2,7 +2,7 @@ import React from 'react';
 function P_languages(props){
     return(
         <div>
-            <h1>....Programming languages....</h1>
+            <h1 class="main_head">....Programming languages....</h1>
             <h3>{props.lang1}</h3>
             <h3>{props.lang2}</h3>
             <h3>{props.lang3}</h3>
